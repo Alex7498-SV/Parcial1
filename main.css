@@ -63,10 +63,44 @@
 .dv{
     background-color: var(--color1);
     border-radius: 13px;
+    margin: 0.6em;
+}
 
+.dv h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4em;
+    color: var(--color7);
+}
+
+.dv p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: var(--color2);
+}
+
+.dv .btn{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+    text-align: center;
+    font-size: 1em;
+}
+
+.dv .bt{
+    text-align: center;
 }
 
 .ftr{
+    background-image: url(src/img/contacus.jpg);
+    background-size: 100% 100%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
+    width: 100%;
+    height: 40%;
+}
+
+.formu{
+    margin: 3em;
+
 }
