@@ -17,7 +17,7 @@
 }
 
 .head img{
-    position: fixed;
+    position: absolute;
     z-index: -1;
     width: 100%;
     height: 33.3%;
@@ -43,11 +43,20 @@
 }
 
 .content{
+    margin-top: 2em;
+    margin-left: 0;
+    margin-right: 0;
     display: grid;
     grid-template-columns: repeat(3, 33.3%);
 }
 
 .img{
     width: 100%;
-    height: 40%;
+    
+}
+
+.dv{
+    background-color: var(--color1);
+    border-radius: 13px;
+
 }
