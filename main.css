@@ -1,0 +1,21 @@
+/*clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);*/
+
+:root{
+    --color1 :#f5f5f5;
+    --color2: #000000;
+    --color3: #fff;
+    --color4: orange;
+    --color5: blue;
+    --color6: #dbdada;
+    --color7: #612e1d;
+    --color8: #13131342;
+    --color9: #440d5a;
+    --color01: #fef6f4;
+    --color02: rgba(245, 245, 245, 0.335);
+    --color03: rgba(109, 104, 104, 0.801);
+
+}
+
+.mnav{
+    
+}
