@@ -41,9 +41,13 @@
     font-family: 'Raleway', sans-serif;
     font-size: 2em;
 }
+.head #flechita{
+ font-size: 2em;
+ color: var(--color3)
+}
 
 .content{
-    margin-top: 2em;
+    margin-top: 5em;
     margin-left: 0;
     margin-right: 0;
     display: grid;
@@ -52,6 +56,7 @@
 
 .img{
     width: 100%;
+    height: 400px;
     
 }
 
@@ -59,4 +64,9 @@
     background-color: var(--color1);
     border-radius: 13px;
 
+}
+
+.ftr{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }

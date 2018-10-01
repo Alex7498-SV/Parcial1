@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <link href="https://fonts.googleapis.com/css?family=Monoton|Raleway" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
         <div>
             <h2>MAXISUN'S</h2>
             <p>The best studio fulltime</p>
-            <i class="fas fa-angle-down"></i>
+            <i id="flechita" class="fas fa-angle-down"></i>
         </div>
         <img src="src/img/fondo.jpg" alt="">
 
@@ -38,7 +40,7 @@
 
     <div class="content">
         <div class="dv">
-            <img class="img" src="src/img/feauture1.jpg" height="40%" alt="">
+            <img class="img" src="src/img/feauture1.jpg" height="" alt="">
             <h3>Lorem, Ipsum.</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quasi eum, nulla alias minima voluptatibus
                 magnam</p>
@@ -82,20 +84,23 @@
     </div>
 
     <div class="ftr">
-        <form action="#" method="GET">
-            <div class="nm">
-                <label for="firstname">name: </label>
-                <input type="text" name="firstname" id="firstname" placeholder="John" required>
-            </div>
-            <div class="email">
-                <label for="email">Email: </label>
-                <input type="email" name="email" id="email" placeholder="john@domain.com" required>
-            </div>
-            <div textb>
-                <label for="comment">name: </label>
-                <input type="text" rows="3" name="comment" id="cmm" placeholder="comment here" required>
-            </div>
-        </form>
+        <div class="formu">
+            <form action="#" method="GET">
+                <div class="nm">
+                    <label for="firstname">name: </label>
+                    <input type="text" name="firstname" id="firstname" placeholder="John" required>
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="john@domain.com" required>
+                </div>
+                <div textb>
+                    <label for="comment">name: </label>
+                    <input type="text" rows="3" name="comment" id="cmm" placeholder="comment here" required>
+                </div>
+                <button type="button" class="btn btn-light">Learn More</button>
+            </form>
+        </div>
 
         <div>
             <h3>contact us.</h3>
